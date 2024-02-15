@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: linear-gradient(to right, orange, yellow)
+}
+.menu{
+    height: 67px;
+    background-color: white;
+}
+.menu li a{
+    color: rgb(0, 0, 0);
+    list-style-type: none;
+    float: right;
+    padding: 25px;
+    font-size: 25px;
+    text-decoration: none;
+    padding-right: 70px;
+}
+.menu li{
+    display: inline;
+    
+}
+.logo-f{
+    width: 150px;
+    padding: 10px;
+}
+.menu li a:hover{
+    color:red;
+}
+
+.cadastro {
+    margin-top: 85px;
+    text-align: center;
+    margin-bottom: 12%;
+}
+
+form {
+    max-width: 600px; /* Aumente o tamanho do contêiner */
+    margin: 0 auto;
+    padding: 40px; /* Aumente o espaçamento interno */
+    background-color: #363232;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+legend {
+    color: white;
+    font-size: 32px; /* Aumente o tamanho da fonte */
+    font-weight: bold;
+    margin-bottom: 30px;
+    border: 1px solid;}
+    
+
+.input-box {
+    position: relative;
+    margin-bottom: 25px; /* Aumente o espaçamento inferior dos campos */
+}
+
+.inputuser {
+    width: 100%;
+    padding: 15px; /* Aumente o preenchimento */
+    border: 2px solid #ccc; /* Aumente a largura da borda */
+    border-radius: 5px; /* Aumente o raio da borda */
+    font-size: 20px; /* Aumente o tamanho da fonte */
+}
+
+label {
+    position: absolute;
+    top: 15px; /* Aumente o espaço superior */
+    left: 15px; /* Aumente o espaço esquerdo */
+    color: #888;
+    pointer-events: none;
+    transition: 0.2s ease all;
+}
+
+.inputuser:focus + label,
+.inputuser:valid + label {
+    top: 0;
+    left: 0;
+    font-size: 16px; /* Ajuste o tamanho da fonte quando focado */
+    color: #333;
+}
+
+.inputuser:focus {
+    outline: none;
+    border-color: #007bff;
+}
+
+input[type="submit"] {
+    display: block;
+    margin: 30px auto 0; /* Aumente o espaçamento superior */
+    background-color: #007bff;
+    color: #fff;
+    padding: 15px 30px; /* Aumente o preenchimento do botão */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 20px; /* Aumente o tamanho da fonte do botão */
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+footer {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+}
