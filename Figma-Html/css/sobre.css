@@ -1,0 +1,177 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, sans-serif;
+    
+    
+}
+.menu{
+    height: 67px;
+    background:linear-gradient(to left,yellow, orange );
+}
+.menu li a{
+    color: rgb(0, 0, 0);
+    list-style-type: none;
+    float: right;
+    padding: 20px;
+    font-size: 25px;
+    text-decoration: none;
+    padding-right: 60px;
+}
+.menu li a:hover{
+    color:red;
+}
+.menu li{
+    display: inline;
+    
+}
+.logo-f{
+    width: 150px;
+    padding: 10px;
+}
+/* Estilos gerais */
+
+footer {
+
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+}
+/* Banner Start */
+.main-banner {
+    height: 400px;
+  }
+  .main-banner > img {
+    width: 100%;
+    height: 700px;
+    object-fit: cover;
+  }
+  /* Banner End */
+  
+  /* Service Start */
+  .service {
+    background-color: #fff;
+  }
+  
+  .service > h1 {
+    font-size: 30px;
+    text-align: center;
+    padding: 30px;
+  }
+  
+  .col {
+    width: 300px;
+    text-align: center;
+    margin-left: 140px;
+    padding-bottom: 30px;
+    float: left;
+    margin-bottom: 50px;
+  }
+  
+  .col:last-child {
+    border-right: none;
+  }
+  
+  .col > h3 {
+    /* top-bottom right-left */
+    padding: 10px 0px;
+    color: orange;
+  }
+  
+  .col > p {
+    padding-bottom: 20px;
+    font-size: 20px;
+  }
+  
+  .col > a {
+    background-color: #089de3;
+    color: #fff;
+    font-size: 17px;
+    text-decoration: none;
+    border: solid white 2px;
+    padding: 5px 10px;
+    border-radius: 20px;
+  }
+  
+  .col > a:hover {
+    background-color: #111111;
+    border: solid #111111 2px;
+  }
+  .service::after {
+    content: " ";
+    display: block;
+    clear: both;
+    zoom: 1;
+  }
+  /* Service End */
+  
+  /* Customer Start */
+  .customer {
+    background-image: linear-gradient(to left, orange, yellow);
+    min-height: 300px;
+    text-align: center;
+    padding: 20px;
+    color: black;
+  }
+  
+  .customer > h1 {
+    font-size: 30px;
+    padding-bottom: 20px;
+  }
+  
+  .customer > img {
+    border: solid 2px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    object-fit: cover;
+  }
+  
+  .customer > p {
+    font-size: 18px;
+    margin: 10px 200px;
+    padding-bottom: 10px;
+    line-height: 25px;
+  }
+  
+  .customer > a {
+    color: #fff;
+    font-size: 17px;
+    text-decoration: none;
+    border: solid white 1px;
+    padding: 5px 20px;
+  }
+  
+  .customer > a:hover {
+    background-color: #111111;
+    border: solid #111111 1px;
+  }
+  .styled-div {
+    margin: auto;
+    margin-top: 600px;
+    margin-bottom: 300px;
+    background-color: #f2f2f2;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+    color: #333;
+    font-family: Arial, sans-serif;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  .styled-div p {
+    margin: 0;
+    text-align: justify;
+    font-size: 24px;
+  }
+  .styled-div img{
+    height: 500px;
+    margin-bottom: 40px;
+  }
