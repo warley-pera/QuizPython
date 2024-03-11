@@ -1,1 +1,1 @@
-Projeto final do Semenstre 2023
+Projeto final do Semestre 2023
